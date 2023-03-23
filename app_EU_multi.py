@@ -48,13 +48,13 @@ def start_prompt_creator(message_type, cluster):
     else:
         cluster = cluster[0]
     if message_type == "Telegram":
-            start_prompt = f"looking at this telegram messages about {cluster} what are the up top 5 needs of refugees?"
+            start_prompt = f"looking at this telegram messages about {cluster} what are the up to 5 top needs of refugees? Response in English"
             return start_prompt, cluster
     if message_type == "Twitter":
-            start_prompt = f"looking at this twitter messages about {cluster} what are the up top 5 issues? If possibile focus refugees"
+            start_prompt = f"looking at this twitter messages about {cluster} what are the up to 5 to issues? If possibile focus on refugees. Response in English"
             return start_prompt, cluster
     if message_type == "News":
-            start_prompt = f"looking at this news articles about {cluster} what are the up top 5 issues? If possibble focus on refugees"
+            start_prompt = f"looking at this news articles about {cluster} what are the up to 5 to issues? If possibble focus on refugees. Response in English"
             return start_prompt, cluster
 
 # sample from df
