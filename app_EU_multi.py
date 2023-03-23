@@ -26,7 +26,7 @@ def num_tokens_from_string(string: str, encoding_name: str) -> int:
     return num_tokens
 
 # run gpt
-def run_gpt(prompt, max_tokens_output, timeout=30):
+def run_gpt(prompt, max_tokens_output, timeout=60):
     completion = openai.ChatCompletion.create(
       model = 'gpt-3.5-turbo',
       messages = [
