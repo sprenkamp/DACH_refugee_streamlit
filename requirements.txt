@@ -4,5 +4,7 @@
 leafmap
 plotly
 geopandas
+openai
+tiktoken
 # git+git://github.com/giswqs/whitebox
 #git+git://github.com/giswqs/leafmap
