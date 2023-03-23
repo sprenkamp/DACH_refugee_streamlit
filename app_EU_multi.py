@@ -272,6 +272,7 @@ if calculate_summary:
     try:
         text = run_gpt(prompt, max_tokens_output, timeout=10)
     except openai.OpenAIError as e:
+        print(e)
         text = "Sorry, request timed out. Please try again."
     dummy_text_summary.empty()
     write_output(text, summary_select, cluster_str)
