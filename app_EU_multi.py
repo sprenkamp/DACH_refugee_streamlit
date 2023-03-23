@@ -7,12 +7,13 @@ import plotly.express as px
 import leafmap.foliumap as leafmap
 import openai
 import tiktoken
+import os 
 #Config must be first line in script
 st.set_page_config(layout="wide")
 
 # Set OpenAI API key
-openai.organization = "org-VnNq2FQvPmbE5cDNFayBZJHW"
-openai.api_key = "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"
+openai.organization = os.environ["OPENAI_ORGANIZATION"]
+openai.api_key = os.getenv("OPENAI_API_KEY") 
 
 max_input_tokens=3900
 max_tokens_output=500
@@ -26,7 +27,7 @@ def num_tokens_from_string(string: str, encoding_name: str) -> int:
     return num_tokens
 
 # run gpt
-def run_gpt(prompt, max_tokens_output, timeout=60):
+def run_gpt(prompt, max_tokens_output, timeout=10):
     completion = openai.ChatCompletion.create(
       model = 'gpt-3.5-turbo',
       messages = [
