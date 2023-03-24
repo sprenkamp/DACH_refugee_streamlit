@@ -1,5 +1,4 @@
 #personal gitignore settings
-/data/*
 plots/*
 .DS_Store
 .Rproj.user

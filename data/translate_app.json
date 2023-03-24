@@ -1,0 +1,63 @@
+{
+    "🇬🇧 English": {
+        "Select a country of interest": "Select a country of interest",
+        "all countries analysed": "all countries analysed",
+        "all states analysed": "all states analysed",
+        "Germany": "Germany",
+        "Switzerland": "Switzerland",
+        "Identification of the most relevant topics in the context of the Ukrainian Refugee Crisis in the media and social media": "Identification of the most relevant topics in the context of the Ukrainian Refugee Crisis in the media and social media",
+        "Choose the topics of interest within the telegram data": "Choose the topics of interest within the telegram data",
+        "Choose the topics of interest within the twitter data":
+        "Choose the topics of interest within the twitter data",
+        "Choose the topic of interest within the news data":
+        "Choose the topic of interest within the news data",
+        "all found topics": "all found topics", 
+        "Choose a state of interest": "Choose a state of interest",
+        "Choose date range of interest": "Choose date range of interest",
+        "all swiss cantons": "all swiss cantons",
+        "all german states": "all german states",
+        "Topics over time on Telegram within": "Cluster over time on Telegram within",
+        "Topics over time on News within": "Cluster over time on News within",
+        "Topics over time on Twitter within": "Cluster over time on Twitter within",
+        "Creating your summary ⏳😊": "Creating your summary ⏳😊",
+        "show summary of": "show summary of",
+        "prepare summary": "prepare summary",
+        "Sorry, request timed out. Please try again.":"Sorry, request timed out. Please try again.",
+        "show data in table": "show data in table",
+        "Schweiz": "Switzerland",
+        "Deutschland": "Germany",
+        "Please find the summary below:" : "Please find the summary below:",
+        "Your Summary 😊" : "Your Summary 😊",
+        "Date": "Date",
+        "Count": "Count"
+    },
+
+    "🇩🇪 Deutsch": {
+        "Select a country of interest": "Wählen Sie ein Land aus",
+        "all countries analysed": "alle analysierten Länder",
+        "all states analysed": "alle analysierten Staaten",
+        "Germany": "Deutschland",
+        "Switzerland": "Schweiz",
+        "Identification of the most relevant topics in the context of the Ukrainian Refugee Crisis in the media and social media": "Identifikation der relevantesten Themen im Kontext der ukrainischen Flüchtlingskrise in den Medien und sozialen Medien",
+        "Choose the topics of interest within the telegram data": "Wählen Sie die Themen aus, die Sie in den Telegram-Daten interessieren",
+        "Choose the topics of interest within the twitter data":
+        "Wählen Sie die Themen aus, die Sie in den Twitter-Daten interessieren",
+        "Choose the topic of interest within the news data":"Wählen Sie die Themen aus, die Sie in den Nachrichtendaten interessieren",
+        "all found topics": "alle gefundenen Themen",
+        "Choose a state of interest": "Wählen Sie einen Staat aus",
+        "Choose date range of interest": "Wählen Sie einen Zeitraum aus",
+        "Topics over time on Telegram within": "Themen über Zeit auf Telegram innerhalb von",
+        "Topics over time on News within": "Themen über Zeit auf traditionellen Nachrichten innerhalb von",
+        "Topics over time on Twitter within": "Themen über Zeit auf Twitter innerhalb von",
+        "Creating your summary ⏳😊": "Zusammenfassung wird erstellt ⏳😊",
+        "show summary of": "Zusammenfassung anzeigen von",
+        "prepare summary": "Zusammenfassung erstellen",
+        "Sorry, request timed out. Please try again.":"Entschuldigung, die Anfrage ist abgelaufen. Bitte versuchen Sie es erneut.",
+        "show data in table": "Daten in Tabelle anzeigen",
+        "Schweiz": "Switzerland",
+        "Deutschland": "Germany",
+        "Your Summary 😊" : "Ihre Zusammenfassung 😊",
+        "Date": "Datum",
+        "Count": "Anzahl"
+    }
+}
