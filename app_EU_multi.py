@@ -114,13 +114,6 @@ def dummy_function_space():
     st.write("\n")
     st.write("\n")
     st.write("\n")
-    st.write("\n")
-    st.write("\n")
-    st.write("\n")
-    st.write("\n")
-    st.write("\n")
-    st.write("\n")
-    st.write("\n")
 
 def dummy_function_space_small():
     st.write("\n")
