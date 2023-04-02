@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import geopandas as gpd
 import plotly.express as px
-#check different leafmap backends
 import leafmap.foliumap as leafmap
 import openai
 import tiktoken
@@ -83,6 +82,7 @@ def sample_df_gpt_analysis(df, start_prompt, max_input_tokens):
     text_list.append(start_prompt)
     while max_input_tokens > current_input_tokens:
         df_sample = df.sample(n=1, replace=False)
+        df = df.drop(df_sample.index)
         current_input_tokens += df_sample["tokens"].values[0]
         if current_input_tokens > max_input_tokens:
             break
@@ -310,7 +310,6 @@ if calculate_summary:
     try:
         text = run_gpt(prompt, max_tokens_output, timeout=10)
     except openai.OpenAIError as e:
-        print(e)
         text = translator[st.session_state.language]["Sorry, request timed out. Please try again."]
     dummy_text_summary.empty()
     write_output(text, summary_select, cluster_str)
