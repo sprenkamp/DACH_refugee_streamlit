@@ -193,7 +193,7 @@ with st.sidebar:
         )
     calculate_summary = st.button(translator[st.session_state.language]["prepare summary"])
     dummy_function_space_small()
-    show_table = st.button(translator[st.session_state.language]['show data in table'])
+    # show_table = st.button(translator[st.session_state.language]['show data in table'])
 
 st.title(translator[st.session_state.language]['Identification of the most relevant topics in the context of the Ukrainian Refugee Crisis in the media and social media'])
 
@@ -314,10 +314,10 @@ if calculate_summary:
     dummy_text_summary.empty()
     write_output(text, summary_select, cluster_str)
 
-if show_table:
-    if summary_select=="Telegram":
-        st.dataframe(df_telegram_mod) 
-    if summary_select=="Twitter":
-        st.dataframe(df_twitter_mod)
-    if summary_select=="News":
-        st.dataframe(df_news_mod)
+# if show_table:
+#     if summary_select=="Telegram":
+#         st.dataframe(df_telegram_mod) 
+#     if summary_select=="Twitter":
+#         st.dataframe(df_twitter_mod)
+#     if summary_select=="News":
+#         st.dataframe(df_news_mod)
